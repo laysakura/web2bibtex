@@ -4,7 +4,7 @@ from datetime import datetime
 def printbibtex(url='', author='', title='', key=''):
     if title == '':
         print('titleは必須ですが，このページにはタイトルがありません．')
-        exit
+        exit()
 
     if key == '':
         day = datetime.now()
